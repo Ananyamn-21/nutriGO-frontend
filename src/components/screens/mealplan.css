@@ -1,0 +1,80 @@
+.conti {
+    padding: 40px;
+    width: 8x00px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.637);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.select, .input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submitButton {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* mealplan.css */
+
+.contain {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem; 
+  }
+  
+  .form label {
+    font-size: 1.2rem; 
+    display: block;    
+    margin-bottom: 10px;
+  }
+  
+  .select, .input {
+    font-size: 1.2rem; 
+    padding: 8px;      
+    margin-bottom: 15px; 
+    width: 100%;       
+  }
+  
+  .submitButton, .editButton {
+    font-size: 1.2rem; 
+    padding: 10px 15px; 
+    cursor: pointer;    
+  }
+  
+  .submittedData {
+    margin-top: 20px; 
+  }
+  
+  .submittedData p {
+    font-size: 1.2rem; 
+  }
+  .conti{
+    height: 700px;
+    overflow: scroll; 
+  }
+  .conti::-webkit-scrollbar {
+    display: none;
+  }
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  

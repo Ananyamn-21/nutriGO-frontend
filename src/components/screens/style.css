@@ -1,0 +1,181 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/images/back.png') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.5; /* Adjust the transparency level here */
+  z-index: -1; /* Ensure it's behind the content */
+}
+
+.admin-button-container {
+  display: flex;
+  justify-content: flex-end; /* This aligns the button to the right */
+  padding: 20px; /* Optional padding */
+}
+
+.admin-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
+
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
+
+
+.login-container {
+  background: rgba(255, 255, 255, 0.585);
+  backdrop-filter: blur(10px);
+  /* border-radius: 20px; */
+  padding: 40px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.login-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+}
+
+/* Stylish Logo with Highlight */
+.logo h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #009611;
+  margin-bottom: 30px;
+  padding-left: 7%;
+  
+  
+}
+.logo{
+  align-items: center;
+}
+
+.logo .highlight {
+  color: #15933d;
+}
+
+/* Login Form */
+.login-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 30px;
+  border: 1px solid rgba(38, 127, 16, 0.5);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.login-form input:focus {
+  border-color: #c1b8b8; 
+  box-shadow: 0 0 10px rgba(213, 165, 165, 0.4); 
+}
+
+.login-form button {
+  width: 100%;
+  background: rgb(120, 190, 15);
+  color: rgb(40, 159, 22);
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+.login-form button:hover {
+  background-color: rgb(2, 56, 2);
+  box-shadow: 0 10px 20px rgba(0, 150, 136, 0.3);
+}
+
+/* Register Link */
+.register-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register-link a {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+  color: #ff4a4a;
+}
+
+/* Add subtle animations */
+.login-container {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+.login-container {
+  position: relative;
+}
+
+.admin-button-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.admin-button {
+  background-color: #f0c040;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.admin-button:hover {
+  background-color: #d49d00;
+}
+

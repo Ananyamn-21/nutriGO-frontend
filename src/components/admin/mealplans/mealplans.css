@@ -1,0 +1,16 @@
+.meal-plan-header th {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .meal-plan-crd {
+    width: 100%;
+    table-layout: fixed;
+  }
+  .main1{
+    height: 700px;
+    overflow: scroll; 
+  }
+  .main1::-webkit-scrollbar {
+      display: none;
+  }

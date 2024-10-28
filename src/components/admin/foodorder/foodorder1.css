@@ -1,0 +1,102 @@
+/* foodorder1.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.food-order-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.food-items, .order-summary {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.food-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.food-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.food-items button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.food-items button:hover {
+  background-color: #218838;
+}
+
+.order-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.order-summary th, .order-summary td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.order-summary th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.order-summary tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order-summary tr:hover {
+  background-color: #f1f1f1;
+}
+
+.order-summary select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: #555;
+}

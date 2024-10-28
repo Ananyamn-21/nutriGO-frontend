@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url('../assets/images/back.png') no-repeat center center fixed;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Admin Login Container */
+  .admin-login-container {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+  }
+  
+  .admin-login-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Stylish Logo with Highlight */
+  .logo h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #009611;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    align-items: center;
+  }
+  
+  .admin-login-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .admin-login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    /* border-radius: 30px; */
+    border: 1px solid rgba(38, 127, 16, 0.5);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.4s ease, box-shadow 0.4s ease;
+    background: rgba(255, 255, 255, 0.585);
+  }
+  
+  .admin-login-form input:focus {
+    border-color: #c1b8b8; 
+    box-shadow: 0 0 10px rgba(213, 165, 165, 0.4); 
+  }
+  
+  .admin-login-form button {
+    width: 100%;
+    background: rgb(120, 190, 15);
+    /* background: rgba(255, 255, 255, 0.585); */
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .admin-login-form button:hover {
+    background-color: rgb(2, 56, 2);
+    box-shadow: 0 10px 20px rgba(0, 150, 136, 0.3);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .admin-login-container {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    width: 600px;
+    height: 650px;
+    margin-top: 20px;
+  }
+  
+  .profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-details {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+  }
+  

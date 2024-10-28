@@ -1,0 +1,50 @@
+.report-problem-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .report-problem-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .report-problem-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .report-problem-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .report-problem-container input, 
+  .report-problem-container textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .report-problem-container button {
+    background-color: #007bff;
+    color: #fffffff8;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .report-problem-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .report-problem-container p {
+    color: green;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
